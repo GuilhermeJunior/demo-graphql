@@ -1,4 +1,4 @@
-package dev.stomrgui.demographql;
+package dev.stomrgui.demographql.model;
 
 import java.util.Arrays;
 import java.util.List;
