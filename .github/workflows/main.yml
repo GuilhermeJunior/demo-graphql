@@ -1,7 +1,7 @@
 name: Java Spring Build and Test
 
 on:
-  push:
+  pull_request:
     branches:
       - main
 
