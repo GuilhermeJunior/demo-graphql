@@ -37,10 +37,7 @@ public class BookController {
         var author = authorRepository.findById(authorId)
                 .orElseThrow(RuntimeException::new);
 
-        var book = new BookEntity();
-        book.setName(name);
-        book.setAuthor(author);
-
+        var book = new BookEntity(name, author);
         return bookRepository.save(book);
     }
 }

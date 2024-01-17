@@ -10,14 +10,14 @@ INSERT INTO author (author_id, first_name, last_name) VALUES  (9, 'Mark', 'Twain
 INSERT INTO author (author_id, first_name, last_name) VALUES  (10, 'Gabriel', 'García Márquez');
 
 
-INSERT INTO book (book_id, name, author_id) VALUES  (1, 'To Kill a Mockingbird', 1);
-INSERT INTO book (book_id, name, author_id) VALUES  (2, 'Harry Potter and the Sorcerer''s Stone', 2);
-INSERT INTO book (book_id, name, author_id) VALUES  (3, 'The Great Gatsby', 3);
-INSERT INTO book (book_id, name, author_id) VALUES  (4, 'Animal Farm', 4);
-INSERT INTO book (book_id, name, author_id) VALUES  (5, 'Pride and Prejudice', 5);
-INSERT INTO book (book_id, name, author_id) VALUES  (6, 'The Lord of the Rings: The Fellowship of the Ring', 6);
-INSERT INTO book (book_id, name, author_id) VALUES  (7, 'It', 7);
-INSERT INTO book (book_id, name, author_id) VALUES  (8, 'The Old Man and the Sea', 8);
-INSERT INTO book (book_id, name, author_id) VALUES  (9, 'The Adventures of Tom Sawyer', 9);
-INSERT INTO book (book_id, name, author_id) VALUES  (10, 'One Hundred Years of Solitude', 10);
-INSERT INTO book (book_id, name, author_id) VALUES  (11, 'Harry Potter and the Chamber of Secrets', 2);
+INSERT INTO book (name, author_id) VALUES  ('To Kill a Mockingbird', 1);
+INSERT INTO book (name, author_id) VALUES  ('Harry Potter and the Sorcerer''s Stone', 2);
+INSERT INTO book (name, author_id) VALUES  ('The Great Gatsby', 3);
+INSERT INTO book (name, author_id) VALUES  ('Animal Farm', 4);
+INSERT INTO book (name, author_id) VALUES  ('Pride and Prejudice', 5);
+INSERT INTO book (name, author_id) VALUES  ('The Lord of the Rings: The Fellowship of the Ring', 6);
+INSERT INTO book (name, author_id) VALUES  ('It', 7);
+INSERT INTO book (name, author_id) VALUES  ('The Old Man and the Sea', 8);
+INSERT INTO book (name, author_id) VALUES  ('The Adventures of Tom Sawyer', 9);
+INSERT INTO book (name, author_id) VALUES  ('One Hundred Years of Solitude', 10);
+INSERT INTO book (name, author_id) VALUES  ('Harry Potter and the Chamber of Secrets', 2);
