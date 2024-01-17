@@ -2,6 +2,7 @@ package dev.stomrgui.demographql;
 
 import dev.stomrgui.demographql.model.AuthorEntity;
 import dev.stomrgui.demographql.model.BookEntity;
+import dev.stomrgui.demographql.repository.AuthorRepository;
 import dev.stomrgui.demographql.repository.BookRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -21,6 +22,9 @@ class BookControllerTests {
 
     @MockBean
     private BookRepository bookRepository;
+
+    @MockBean
+    private AuthorRepository authorRepository;
 
     @BeforeEach
     void setUp() {
