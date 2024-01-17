@@ -1,5 +1,6 @@
 type Query {
-    bookById(id: ID): Book
+    bookById(id: ID): Book,
+    findAllBooks: [Book]
 }
 
 type Book {
@@ -14,4 +15,8 @@ type Author {
     firstName: String
     lastName: String
     fullName: String
+}
+
+type Mutation {
+    createBook(name: String, authorId: ID): Book
 }
