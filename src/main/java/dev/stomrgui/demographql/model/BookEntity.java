@@ -33,5 +33,4 @@ public class BookEntity {
     @ManyToOne
     @JoinColumn(name = "author_id")
     private AuthorEntity author;
-
 }
